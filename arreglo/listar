@@ -1,0 +1,2 @@
+var miArreglo=["jhon", 24];
+console.log(miArreglo);
