@@ -1,0 +1,3 @@
+var estaciones=["invierno","otoño","primavera","verano"];
+estaciones.pop();
+console.log(estaciones);
