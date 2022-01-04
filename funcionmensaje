@@ -1,0 +1,7 @@
+<SCRIPT>
+miFuncion()
+function miFuncion(){
+//hago algo...
+document.write("Esto va bien")
+}
+</SCRIPT>
