@@ -1,0 +1,2 @@
+var listaproductos=["Camisa",5.67,"S12"],["Celular",250,"S45"],["Zapato",25.7,"S37"]
+console.log(listaproductos)
