@@ -1,0 +1,9 @@
+// Online Javascript Editor for free
+// funcion para sumarr
+    
+function sumar(a,b) {
+     var suma= a+b;
+     console.log("El resultado de " + a + "+" +b+"=" +suma);
+     }
+
+sumar(5,3);
