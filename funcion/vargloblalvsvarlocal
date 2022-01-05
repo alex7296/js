@@ -1,0 +1,12 @@
+// Online Javascript Editor for free
+// funcion var global vs var local
+ var nombre="Maria";   
+ 
+function miNombre() {
+     var nombre="Jose";
+     console.log(nombre);
+     }
+
+miNombre();
+
+console.log(nombre);
