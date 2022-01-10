@@ -1,0 +1,10 @@
+function clasicarValor(valor) {
+  if (valor%2==0) {
+    console.log("Divisble entre 2")  
+    } else if (valor%3==0) {
+      console.log("Divisble entre 3") 
+    } else 
+       console.log("No es divisble entre las dos opciones ") 
+}
+
+clasicarValor(8)
