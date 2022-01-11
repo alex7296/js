@@ -1,0 +1,13 @@
+var producto="hamburguesa";
+
+switch (producto){
+    case "pizza":
+        console.log("la pizza cuesta 10.50");
+        break;
+    case "hamburguesa":
+        console.log("la hamburguesa cuesta 5.30");
+        break;
+    case "helado":
+        console.log("el helado cuesta 2.80");
+        break; 
+}
