@@ -1,0 +1,18 @@
+function puntajeDeGolf(par, golpes) {
+  if (golpes==1) {
+    return "hole in one!" ;
+  }else if (golpes<= par - 2){
+    return "eagle" ;
+  }else if (golpes== par - 1) {
+    return "Birdie" ;
+  }else if (golpes== par) {
+    return "par" ;
+  }else if (golpes== par +1 ) {
+    return "Bogey";
+  }else if (golpes== par +2) {
+    return "double bogey" ;
+  } else if (golpes>= par +3) {
+    return "go home" ; 
+  }
+}
+console.log(puntajeDeGolf(4,1));  
