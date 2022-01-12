@@ -1,0 +1,7 @@
+function plusOne(number) {
+return number + 1 ;
+}
+var a = 4 ;
+var b = plusOne(a) ;
+console.log(b);
+// will print 5 in the console
