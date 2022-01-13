@@ -1,0 +1,19 @@
+function seleccionar_Idioma(valor){
+    var idioma;
+    switch(valor){
+        case 1:
+            idioma="español";
+            break;
+        case 2:
+            idioma="frances";
+            break;
+        case 3:
+            idioma="italiano";
+            break;
+        default:
+             idioma="ingles";
+             break;
+    }
+    return idioma;
+}
+console.log(seleccionar_Idioma(4));
