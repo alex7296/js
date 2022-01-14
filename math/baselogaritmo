@@ -1,0 +1,17 @@
+<HTML> 
+<SCRIPT LANGUAGE="JavaScript"> 
+// Calculo de logartimo segun su base
+var num,base; 
+num=prompt("Escribe un número positivo",""); 
+num=parseFloat(num); 
+base=prompt("Escribe la base del logaritmo",""); 
+base=parseFloat(base); 
+alert("El logaritmo de "+num+" en base "+base+" es "+logBase(num,base)); 
+
+/* Función que calcula el logaritmo en cualquier base */ 
+function logBase(x,a) 
+{ 
+return Math.log(x)/Math.log(a); 
+} 
+</SCRIPT> 
+</HTML>
