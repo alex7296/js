@@ -1,0 +1,9 @@
+var resultados= {
+    1: "nora256",
+    2: "gino344",
+    3: "estef45",
+    4: "kiara355"
+}
+var posicion=4;
+
+console.log(resultados[posicion]);
