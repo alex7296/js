@@ -1,0 +1,11 @@
+var mochila= {
+    color:"azul",
+    tamaño:"mediano",
+    contenido:["botella de agua","cuaderno"],
+};
+
+
+mochila.color="verde";
+console.log(mochila.color)
+mochila.contenido.push("lapiz");
+console.log(mochila.contenido);
