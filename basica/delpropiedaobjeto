@@ -1,0 +1,8 @@
+var curso={
+    "titulo": "aprende java",
+    "idioma": "español",
+    "duracion": 30
+};
+console.log(curso.duracion);
+delete curso.duracion;
+console.log(curso.duracion);
