@@ -1,0 +1,13 @@
+function buscarElementosQuimicos(simbolo){
+  var simbolosQuimicos={
+    "Al": "aluminio",
+    "S": "azufre",
+    "Cl": "cloro",
+    "He": "helio",
+    "B": "boro",
+    "Li": "litio",
+  };
+return simbolosQuimicos[simbolo];
+}
+
+console.log(buscarElementosQuimicos("Al"))
