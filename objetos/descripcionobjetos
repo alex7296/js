@@ -1,0 +1,18 @@
+var miReceta= {
+    "descripcion": "mi postre favorito",
+    "costo": 15.6,
+    "ingredientes": {
+        "masa": {
+            "harina": "100 grms",
+            "sal": "1 cucharadita",
+            "agua": "una taza",
+        },
+        "cobertura": {
+            "azucar": "120 grms",
+            "chocolate": "4 cucharadas",
+            "mantequilla": "200 grms",
+        }
+    }
+    
+};
+console.log(miReceta.ingredientes.masa);
