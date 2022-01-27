@@ -1,0 +1,16 @@
+var misPlantas=[
+    {
+        tipo: "flores",
+        lista: ["rosas","tulipanes","diente de leon"]
+    },
+    {
+        tipo:"arboles",
+        lista: [
+            "abeto",
+            "pino",
+            "abedul"
+            ]
+    },
+];
+var primeraFlor=misPlantas[0].lista[0];
+console.log(primeraFlor);
