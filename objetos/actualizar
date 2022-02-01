@@ -1,0 +1,26 @@
+var coleccionDeDiscos={
+    7853: {
+        tituloDeAlbum: "bee gees greatest",
+        artista: "bee gees",
+        canciones: ["stayin alives"]
+     },
+     5439: {
+         tituloDeAlbum: "abba gold",
+        artista: "abba",
+        canciones: ["stayin alives"]
+     }
+    };
+
+function actualizarDiscos(discos, id, propiedad,valor) {
+    if (valor===""){
+        delete discos[id][propiedad];
+    } else if (propiedad==="canciones") {
+        discos[id][propiedad]=discos[id][propiedad]||[];
+        discos[id][propiedad].push(valor);
+    } else {
+        discos[id][propiedad]=valor;
+    }
+ }
+ console.log(coleccionDeDiscos[7853].tituloDeAlbum);
+ actualizarDiscos(coleccionDeDiscos,7853,"tituloDeAlbum","");
+ console.log(coleccionDeDiscos[7853].tituloDeAlbum);
