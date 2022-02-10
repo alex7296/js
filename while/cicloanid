@@ -1,0 +1,11 @@
+var mensaje1 = "Esta es la vuelta número" , mensaje2 ="de nuestro bucle";
+i=1;
+while (i<=5){
+    alert(mensaje1+ i +mensaje2);
+    if (i=3){
+       for(var v = 1;v <=3; v++) {
+          alert(“esta es la vuelta número tres y voy a decir esto tres veces más”);
+         }
+    }
+  i++
+}
