@@ -1,0 +1,22 @@
+var diasMes = {
+enero: 31,
+febrero: 28,
+marzo: 31,
+abril: 30,
+mayo: 31
+}
+
+
+for (var mes in diasMes){
+console.log(mes);
+}
+
+alert(diasMes["mayo"]);
+
+for (var mes in diasMes){
+console.log(diasMes[mes]);
+}
+
+for (var mes in diasMes){
+console.log("El mes " + mes + " tiene " + diasMes[mes] + " dias.");
+}
