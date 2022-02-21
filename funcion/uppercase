@@ -1,0 +1,6 @@
+var lenguajes=["javascript","python","java","C++"] ;
+
+for (i=0;i<lenguajes.length;i++)
+   {
+       console.log(lenguajes[i].toUpperCase());
+   }
