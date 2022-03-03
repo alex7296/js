@@ -1,0 +1,5 @@
+function sayHiToFirst(a,b,c) {
+         alert("Say hello, " +a)
+}
+sayHiToFirst("gracie","George","harry")
+sayHiToFirst("larry","moe","curly")
