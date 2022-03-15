@@ -1,0 +1,11 @@
+var aBoy="Charlie Browb"  // global
+var hisDog="Snoopy"  // global
+function  demo() {
+
+       var hisDog="Gromit"
+       var output= hisDog + "does not belong to"  + aBoy + "<BR>"
+       document.write(output)
+}
+
+demo()
+document.write(hisDog + "belong to" + aBoy+ ".")
