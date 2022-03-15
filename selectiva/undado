@@ -1,0 +1,8 @@
+# numero de un dado
+from random import *
+n=randint(1,6)
+if n==6:
+     print ("afortunado")
+else: 
+      print("Salio:  ",n)
+      print("no hubo suerte hoy")
