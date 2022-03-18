@@ -1,0 +1,6 @@
+const sumar= (a,b) => {
+      let num= 6;
+      return a+b+num;
+};
+
+console.log(sumar(1,1));
