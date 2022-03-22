@@ -1,0 +1,3 @@
+var name = "Nicholas";
+var firstChar = name.charAt(0);
+console.log(firstChar);
