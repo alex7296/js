@@ -1,0 +1,4 @@
+function reflect(value) {
+return value;
+}
+console.log(typeof reflect);
