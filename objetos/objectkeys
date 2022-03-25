@@ -1,0 +1,8 @@
+var person1 = {
+name: "Nicholas"
+};
+console.log("name" in person1); // true
+ console.log(person1.propertyIsEnumerable("name")); // true
+var properties = Object.keys(person1);
+console.log("length" in properties); // true
+ console.log(properties.propertyIsEnumerable("length")); // false
