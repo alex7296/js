@@ -1,0 +1,7 @@
+var n_actual = 0
+var suma = 0
+while (suma<300){
+n_actual ++
+suma += suma + n_actual
+alert("n_actual vale " + n_actual + " y suma vale " + suma)
+}
