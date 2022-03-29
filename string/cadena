@@ -1,0 +1,29 @@
+var miCadena =prompt(“Introduzca un texto: “);
+var palabras = new Array(); var palabras = miCadena.split(“ “);
+with(document){
+write(“La cadena es: “+miCadena+”<BR>”);
+write(“El número de caracteres de la cadena es: “+miCadena.length+”<BR>”);
+write(“Haciéndola ancla: “+miCadena.anchor(“#”)+”<BR>”);
+write(“En grande: “+miCadena.big()+”<BR>”);
+write(“Parpadeante: “+miCadena.blink()+”<BR>”);
+write(“Caracter 4 es: “+miCadena.charAt(3)+”<BR>”);
+write(“Fuente FIXED: “+miCadena.fixed()+”<BR>”);
+write(“De color rojo: “+miCadena.fontcolor(“#FF0000”)+”<BR>”);
+write(“De color verde: “+miCadena.fontcolor(“green”)+”<BR>”);
+write(“Fuente Tamaño 7: “+miCadena.fontsize(7)+”<BR>”);
+write(“<BR>En cursiva: “+miCadena.italics()+”<BR>”);
+write(“La primera <I>a</I> está, empezando a contar por detrás,”);
+write(“ en la posición: “+miCadena.lastIndexOf(“a”)+”<BR>”);
+write(“Haciéndola enlace: “+miCadena.link(“#”)+”<BR>”);
+write(“En pequeño: “+miCadena.small()+”<BR>”);
+write(“Tachada: “+miCadena.strike()+”<BR>”);
+write(“Subíndice: “+miCadena.sub()+”<BR>”);
+write(“Superíndice: “+miCadena.sup()+”<BR>”);
+write(“Minúsculas: “+miCadena.toLowerCase()+”<BR>”);
+write(“Mayúsculas: “+miCadena.toUpperCase()+”<BR>”);
+write(“Subcadena entre los caracteres 4 y 6: “);
+write(miCadena.substring(3,6)+”<BR>”);
+write(“Entre los caracteres 6 y 4: “+miCadena.substring(6,3)+”<BR>”);
+write(“Subcadenas resultantes de separar en palabras:</B><BR>”);
+for(i=0;i<palabras.length;i++) write(palabras[i]+”<BR>”);
+}
