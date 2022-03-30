@@ -1,0 +1,18 @@
+<HTML> 
+<!-- PROG068.HTM //--> 
+<HEAD> 
+<SCRIPT LANGUAGE="JavaScript"> 
+function Saludo() 
+{ 
+alert("Hola Mundo!"); 
+} 
+</SCRIPT> 
+</HEAD> 
+<BODY> 
+<P ALIGN="CENTER"> 
+<FORM> 
+<INPUT TYPE="button" VALUE="Hazme Clic" onClick="Saludo();"> 
+</FORM> 
+</P> 
+</BODY> 
+</HTML>
