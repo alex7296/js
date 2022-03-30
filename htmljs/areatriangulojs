@@ -1,0 +1,22 @@
+<HTML> 
+<!-- PROG066.HTM //--> 
+<HEAD> 
+<SCRIPT LANGUAGE="JavaScript"> 
+function a(x,y) 
+{ 
+return (parseFloat(x)*parseFloat(y)/2); 
+} 
+</SCRIPT> 
+</HEAD> 
+<BODY> 
+<FORM> 
+<BR> 
+Base: <INPUT TYPE="text" SIZE="5" NAME="bas"> 
+<BR> 
+Altura: <INPUT TYPE="text" SIZE="5" NAME="alt" onBlur="document.forms[0].result.value=a(document.forms[0].bas.value,this.value);"> 
+<BR>
+<BR> 
+Área: <INPUT TYPE="text" SIZE="10" NAME="result"> 
+</FORM> 
+</BODY> 
+</HTML>
