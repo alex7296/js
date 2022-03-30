@@ -1,0 +1,5 @@
+var myName =”Paul”;
+if (myName == “Paul”)
+{
+alert(“myName is Paul”);
+}
