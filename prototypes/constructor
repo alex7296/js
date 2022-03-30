@@ -1,0 +1,3 @@
+var foo = {};
+console.log(foo.constructor === Object) // logs true, because object() constructed foo
+console.log(foo.constructor) // points to the Object() constructor function
