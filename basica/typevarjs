@@ -1,0 +1,13 @@
+function UseVariable()
+{
+// Create an undefined variable and test it.
+var MyVariable;
+alert(MyVariable + " has a type of: " +typeof(MyVariable));
+// Define the variable and test again.
+MyVariable = "I Am Defined!";
+alert(MyVariable + " has a type of: " +typeof(MyVariable));
+// Empty the variable of data and test again.
+MyVariable = null;
+alert(MyVariable + " has a type of: " +typeof(MyVariable));
+}
+UseVariable();
