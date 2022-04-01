@@ -1,0 +1,3 @@
+var myObject = {'123':'zero','class':'foo'};
+// Let's see dot notation do this! Keep in mind 'class' is a keyword in JavaScript
+console.log(myObject['123'], myObject['class']); //logs 'zero foo'
