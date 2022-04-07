@@ -1,0 +1,8 @@
+function get_added_text() {
+var textpart1="This is ";
+var textpart2="fun!";
+var added_text=textpart1+textpart2;
+return added_text;
+}
+var alert_text=get_added_text();
+alert(alert_text);
