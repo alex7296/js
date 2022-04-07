@@ -1,0 +1,7 @@
+function convertToCentigrade(degFahren)
+{
+var degCent;
+degCent = 5/9 * (degFahren - 32);
+return degCent;
+}
+console.log(convertToCentigrade(0))
