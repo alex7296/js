@@ -1,0 +1,13 @@
+var ThisDate = new Date(“2/1/2013”);
+var ThatDate = new Date(“3/1/2013”);
+alert(
+“Difference between ThisDate and ThatDate: “ +
+((ThatDate - ThisDate) / 86400000) + “ Days”);
+</script>
+<h1>Difference Between Times</h1>
+<script language=”JavaScript”>
+var ThisTime = new Date(2013, 2, 1, 2, 30);
+var ThatTime = new Date(2013, 2, 1, 2, 51);
+alert(
+“Difference between ThisTime and ThatTime: “ +
+((ThatTime - ThisTime) / 60000) + “ Minutes”);
