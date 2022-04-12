@@ -1,0 +1,9 @@
+try
+{
+console.log(‘This is code inside the try clause’);
+console.log("No Errors so catch code will not execute");
+}
+catch(exception)
+{
+console.log("The error is " + exception.message);
+}
