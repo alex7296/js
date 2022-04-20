@@ -1,0 +1,12 @@
+// most commonly used/seen in the wild
+(function(msg) {
+! console.log(msg);
+})('Hi');
+// slightly different but achieving the same thing:
+(function(msg) {
+! console.log(msg)
+}('Hi'));
+// the shortest possible solution
+!function sayHi(msg) {console.log(msg);}('Hi');
+// FYI, this does NOT work!
+// function sayHi() {console.log('hi');}();
