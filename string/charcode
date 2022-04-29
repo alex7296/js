@@ -1,0 +1,7 @@
+var myString = “”;
+var charCode;
+for (charCode = 65; charCode <= 90; charCode++)
+{
+myString = myString + String.fromCharCode(charCode);
+}
+document.write(myString);
