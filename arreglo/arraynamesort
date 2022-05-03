@@ -1,0 +1,8 @@
+var names = new Array(“Paul”,"Sarah","Jeremy","Adam","Bob");
+var elementIndex;
+names.sort();
+console.log("Now the names again in order" + "<br />");
+for (elementIndex = 0; elementIndex < names.length; elementIndex++)
+{
+console.log(names[elementIndex] + "<br />");
+}
