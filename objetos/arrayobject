@@ -1,0 +1,10 @@
+var myArray = ['blue', 'green', 'orange', 'red'];
+console.log(myArray[0]); // logs blue using 0 index to access string in myArray
+// versus
+var myObject = { // aka associative array/hash, known as an object in JavaScript
+ 'blue': 'blue',
+ 'green': 'green',
+ 'orange': 'orange',
+ 'red': 'red'
+};
+console.log(myObject['blue']);
