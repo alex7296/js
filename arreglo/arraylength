@@ -1,0 +1,3 @@
+var myArray = [];
+myArray[50] = 'blue';
+console.log(myArray.length); 
