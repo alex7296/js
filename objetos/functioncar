@@ -1,0 +1,13 @@
+function car(seats,engine,theradio) {
+this.seats=seats;
+this.engine=engine;
+this.theradio=theradio;
+}
+var work_car= new car("cloth","V-6","Tape Deck");
+var fun_car= new car("leather","V-8","CD Player");
+var engine_type= work_car.engine;
+var seat_type= fun_car.seats;
+var radio_type= fun_car.theradio;
+document.write("I want a car with "+seat_type+" seats.<br />");
+document.write("It also needs a "+engine_type+" engine.<br />");
+document.write("Oh, and I would like a "+radio_type+" also.")
