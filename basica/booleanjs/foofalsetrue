@@ -1,0 +1,6 @@
+foo = false
+var foo = new Boolean(0)
+console.log(foo);
+// parameter passed to Boolean() = Math = true, thus bar = true
+var bar = new Boolean(Math)
+console.log(bar);
