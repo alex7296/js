@@ -1,0 +1,5 @@
+for (const x of ['a', 'b', 'c']) {
+console.log(x);
+if (x === 'b') break;
+console.log('---')
+}
