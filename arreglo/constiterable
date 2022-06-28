@@ -1,0 +1,5 @@
+const iterable = ['hello', 'world'];
+let elem;
+for (elem of iterable) {
+console.log(elem);
+};
