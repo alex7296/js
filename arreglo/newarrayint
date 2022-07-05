@@ -1,0 +1,8 @@
+const ints = new Int16Array([1, 2, 3]);
+for (const int of ints) {
+alert(int);
+}
+// 1
+// 2
+// 3
+alert(Math.max(...ints)); // 3
