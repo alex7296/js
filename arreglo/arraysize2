@@ -1,0 +1,9 @@
+// Initialize set with custom-defined iterator
+const s2 = new Set({
+[Symbol.iterator]: function*() {
+yield "val1";
+yield "val2";
+yield "val3";
+}
+});
+alert(s2.size); // 3
