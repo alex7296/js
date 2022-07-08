@@ -1,0 +1,6 @@
+function func(x, y) {
+console.log(x);
+console.log(y);
+}
+const someIterable = ['a', 'b'];
+func(...someIterable);
