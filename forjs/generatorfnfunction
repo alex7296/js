@@ -1,0 +1,6 @@
+function* generatorFn() {
+yield* [1, 2, 3];
+}
+let generatorObject = generatorFn();
+for (const x of generatorFn()) {
+console.log(x);
