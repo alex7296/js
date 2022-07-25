@@ -1,0 +1,6 @@
+function* zeroes(n) {
+while(n--) {
+yield 0;
+}
+}
+console.log(Array.from(zeroes(8)));
