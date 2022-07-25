@@ -1,0 +1,8 @@
+function* range(start, end) {
+let i = start;
+while(end > start) {
+yield start++;
+}
+}
+for (const x of range(4, 7)) {
+console.log(x);
